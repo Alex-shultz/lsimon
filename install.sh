@@ -17,3 +17,5 @@ chmod 644 ${ZABBIX_DIR}/zabbix_agentd.d/lsi_raid_linux.conf
 /bin/cp ${WORK_DIR}/linux/sudoers_zabbix_lsistorcli /etc/sudoers.d/sudoers_zabbix_lsistorcli
 chown root\: /etc/sudoers.d/sudoers_zabbix_lsistorcli
 chmod 644 /etc/sudoers.d/sudoers_zabbix_lsistorcli
+
+systemctl restart zabbix-agent
