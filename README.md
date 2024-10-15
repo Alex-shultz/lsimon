@@ -43,3 +43,6 @@
     - {$PD_TEMP_WARNING} — 45. Повышенная температура физического диска.
   
 5. `systemctl restart zabbix-agent`
+
+Или выполните одну команду:
+`dnf install -y git && git clone https://github.com/d1sl1ke/lsimon.git && cd lsimon && sh install.sh`
